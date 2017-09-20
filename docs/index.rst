@@ -1,4 +1,8 @@
 IBIS Identiteiten beheer
 ========================
 
-:ref:`asset_management`
+.. toctree::
+   :maxdepth: 2
+   :caption: IBIS
+
+   asset_management
