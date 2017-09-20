@@ -1,1 +1,4 @@
-IBIS Identiteiten beheer12
+IBIS Identiteiten beheer
+========================
+
+:ref:`asset_management`
