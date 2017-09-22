@@ -6,4 +6,4 @@ IBIS Identiteiten beheer
    :caption: IBIS
 
    asset_management
-   configuration/general_configuration
+   configuration
