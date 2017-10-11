@@ -1,6 +1,8 @@
+========================
 Net Products in ApplicationDossiers
+========================
 
-Internal reference: 6241
+Internal referencenumber: 6241
 
 To find out which products/permissions an employee currently possesses, a page is developed containing an overview.
 On this page a list is shown that contains all currently possessed products/permissions, minus the products/permissions that have been revoked at any time in the past. 
