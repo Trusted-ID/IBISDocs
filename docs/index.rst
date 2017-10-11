@@ -1,5 +1,5 @@
 ========================
-IBIS Identiteiten beheer Documentatie
+IBIS Identiteiten beheer 
 ========================
 
 .. toctree::
