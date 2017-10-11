@@ -5,8 +5,8 @@ IBIS Identiteiten beheer
    :maxdepth: 3
    :caption: IBIS
 
-   aanvraagdossier/index.rst
-   achtergrondtaken/index.rst
+   applicationdossier/index.rst
+   taskrunner/index.rst
    acl_sync_tool/index.rst
    aliasdossier/index.rst
    api/index.rst
