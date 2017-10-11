@@ -6,3 +6,4 @@ IBIS Identiteiten beheer
    :maxdepth: 3
 
    applicationdossier/index.rst
+   idossier/index.rst
