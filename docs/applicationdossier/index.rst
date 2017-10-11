@@ -1,5 +1,5 @@
 ========================
-Overview of common applicationdossier functionality
+Applicationdossier functionalities
 ========================
 
 .. toctree::
