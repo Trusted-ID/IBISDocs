@@ -6,7 +6,7 @@ To find out which products/permissions an employee currently possesses, a page i
 On this page a list is shown that contains all currently possessed products/permissions, minus the products/permissions that have been revoked at any time in the past. 
 Results are shown per IDM-number. 
 
-Location: URL/Forms/Products/ProductsOverview.aspx?idmnumber=653-IN-184220
+Location: URL/Forms/Products/ProductsOverview.aspx
 
 Step-by-step:
 
