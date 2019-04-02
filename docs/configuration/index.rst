@@ -1,8 +1,0 @@
-Configuration
-=============
-
-IBIS Configuratie
-
-.. toctree::
-
-   *
