@@ -12,5 +12,11 @@ Results
 Done    The incoming object corresponds to the type specified in the activity configuration
 ======= ============================
 
+============= ======== ====================
+Configuration
+============= ======== ====================
+Content type  Required  The type of object to act on. If the incoming object does not correspond to this type the workflow will not be executed 
+============= ======== ====================
+
 Content Updated
 ^^^^^^^^^^^^^^^
