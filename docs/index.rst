@@ -1,15 +1,10 @@
 Welcome to IBIS
 ===============
 
-Installation
-^^^^^^^^^^^^
-
-IBIS installation guidelines
-
 .. toctree::
    :maxdepth: 3
    :hidden:
-   :caption: Introduction
+   :caption: Installation
 
    intro/installation_on_premises
    intro/installation_azure
