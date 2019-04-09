@@ -8,5 +8,5 @@ IBIS is
    :hidden:
    :caption: Introduction
 
-   intro/idossiers
-   intro/assets
+   intro/installation_on_premises
+   intro/installation_azure
