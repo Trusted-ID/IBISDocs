@@ -47,3 +47,8 @@ IIS Manager
     b.	Modules
 
 8.	Browse to the new application using your favorite web browser (or the one you have available...)
+
+Known issues
+^^^^^^^^^^^^
+
+* In some environments IIS doesn’t grant Read/Write access for the Application Pool Identity (service account for the web application) on the temporary folder (C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\IBIS). This will result in missing icons in IBIS. If this is the case, manually grant Read/Write access. 
