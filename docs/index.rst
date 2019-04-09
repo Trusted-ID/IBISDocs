@@ -14,6 +14,7 @@ Welcome to IBIS
     :hidden:
     :caption: Workflow
 
+    workflow/introduction
     workflow/events
     workflow/activities
 
