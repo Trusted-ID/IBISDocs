@@ -22,8 +22,8 @@ File system
 2.	Edit Connections.config, and alter the connection strings to correspond to your environment
 3.	Assign full access permissions for the service account to the following subfolders:
 
-a.	App_Data
-b.	App_Content
+    a.	App_Data
+    b.	App_Content
 
 IIS Manager
 ^^^^^^^^^^^
@@ -31,11 +31,11 @@ IIS Manager
 1.	Create a new application pool which uses the .NET version specified in the prerequisites
 2.	Configure the following settings on the app pool (App pool  Advanced settings):
 
-a.	Start Mode				: AlwaysRunning
-b.	Identity				: [service account]
-c.	Idle timeout (minutes)		: 0
-d.	Maximum worker processes		: 1
-e.	Recycling  Regular time interval	: 0
+    a.	Start Mode				: AlwaysRunning
+    b.	Identity				: [service account]
+    c.	Idle timeout (minutes)		: 0
+    d.	Maximum worker processes		: 1
+    e.	Recycling  Regular time interval	: 0
 
 3.	Back in the main screen, right click on the hosting website, and choose Add application
 4.	Specify an alias. This is the URL part after the hostname (https://www.server.com/alias)
@@ -43,7 +43,7 @@ e.	Recycling  Regular time interval	: 0
 6.	Set the physical path to the installation folder, and press OK
 7.	Verify that the following feature delegations on the server object are set to Read/Write:
 
-a.	Handler mappings
-b.	Modules
+    a.	Handler mappings
+    b.	Modules
 
 8.	Browse to the new application using your favorite web browser (or the one you have available...)
