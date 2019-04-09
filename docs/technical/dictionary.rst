@@ -4,18 +4,8 @@ Dictionary
 Acl
 ^^^
 
-* CreatedBy
-* CreatedDate
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
 * IbisUserId
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * OrganisationNumber
 * ProductManagement
 * Restriction
@@ -23,29 +13,39 @@ Acl
 * RoleId
 * Securable
 * SelfService
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Activity
 ^^^^^^^^
 
 * Config
-* CreatedBy
-* CreatedDate
 * Description
 * Displayname
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
 * Order
 * StartActivity
-* ValidationErrors
 * Workflow
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 AliasDossier
 ^^^^^^^^^^^^
@@ -167,21 +167,21 @@ AliasDossier
 * _42_37_Persoon_EffectieveAchternaam
 * _42_38_Persoon_EffectieveVoorvoegsels
 * _42_39_Persoon_EffectieveAchternaamInclusiefVoorvoegsels
-* CreatedBy
-* CreatedDate
 * EndDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
 * IsValid
-* ModifiedBy
-* ModifiedDate
 * OrganisationNumber
 * RandomNumberType
 * StartDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ApplicationDossier
 ^^^^^^^^^^^^^^^^^^
@@ -209,22 +209,22 @@ ApplicationDossier
 * _37_55_Behandelaar
 * _42_01_Persoon_IdMNummerWerknemer
 * CleanDossierStatus
-* CreatedBy
-* CreatedDate
 * DaysInProgress
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * OrganisationNumber
 * ProductGroupFilters
 * RandomNumberType
-* ValidationErrors
 * WorkDaysInProgress
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ApplicationDossierProduct
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -256,26 +256,26 @@ ApplicationDossierProduct
 * ApplicationDossierId
 * AutomaticallyCreated
 * CleanProductStatus
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
 * Issues
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * NotificationId
 * OrderResultMessage
 * ProductGroupId
 * ProductId
 * RetourWaarde
 * SupplierId
-* ValidationErrors
 * Waarde
 * WaardeType
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Asset
 ^^^^^
@@ -289,24 +289,24 @@ Asset
 * ApplicationDossierProductId
 * AssetRelations
 * AutomaticallyCreated
-* CreatedBy
-* CreatedDate
 * Deleted
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Number
 * Product
 * ProductId
 * ReturnValue
 * SupplierId
-* ValidationErrors
 * WithdrawRelations
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 AssetRelation
 ^^^^^^^^^^^^^
@@ -314,36 +314,26 @@ AssetRelation
 * ApplicationDossierId
 * ApplicationDossierProductId
 * AutomaticallyCreated
-* CreatedBy
-* CreatedDate
 * Deleted
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IDossierId
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * ProductGroupId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 AuditEntry
 ^^^^^^^^^^
 
 * Changes
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
 * IbisUserId
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * NewState
 * NewStateString
 * ObjectClass
@@ -354,7 +344,17 @@ AuditEntry
 * PersisterID
 * PersisterType
 * Username
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 AuthorizationObject
 ^^^^^^^^^^^^^^^^^^^
@@ -362,84 +362,74 @@ AuthorizationObject
 * Acls
 * AuthorizationParent
 * AuthorizationProperties
-* CreatedBy
-* CreatedDate
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 AuthorizationProperty
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Acls
 * AuthorizationParent
-* CreatedBy
-* CreatedDate
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Bestelmethode
 ^^^^^^^^^^^^^
 
 * ApplicationDossierReadyStatusId
-* CreatedBy
-* CreatedDate
 * Description
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IDossierReadyStatusId
-* IsPersisted
-* IsTransient
-* IsValid
 * MailTemplateId
-* ModifiedBy
-* ModifiedDate
 * Name
 * ProductFinishedStatusId
 * ProductReadyStatusId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ConnectorEntity
 ^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * DisconnectAction
 * EnableProjection
 * ExportThresholdConfiguration
 * ExportThresholdViolation
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * ImportThresholdConfiguration
 * ImportThresholdViolation
-* IsPersisted
-* IsTransient
-* IsValid
 * LastSuccessfulExportDetermination
 * LastSuccessfulImport
 * Map
 * Match
-* ModifiedBy
-* ModifiedDate
 * ModuleExternalIdProperty
 * ModuleId
 * Name
@@ -447,43 +437,53 @@ ConnectorEntity
 * SchemaCache
 * StagingArea
 * SupportedOperations
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ConnectorExportPropertyEntity
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * ChangeTime
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * PropertyName
-* ValidationErrors
 * Value
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ConnectorImportPropertyEntity
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * ChangeTime
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * PropertyName
-* ValidationErrors
 * Value
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Contract
 ^^^^^^^^
@@ -566,94 +566,94 @@ Contract
 * _12_93_MinisterieVanHerkomst
 * _12_94_OverigeExtraGegevens
 * _12_95_Commentaar
-* CreatedBy
-* CreatedDate
 * DossierId
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ContractRolInPDirekt
 ^^^^^^^^^^^^^^^^^^^^
 
 * _12_23_RolInPDirekt
-* CreatedBy
-* CreatedDate
 * DossierId
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 DataSet
 ^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * Criteria
 * DataType
 * Description
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * LastItemsInDataSet
-* ModifiedBy
-* ModifiedDate
 * Name
 * Stateless
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 DataSetTrigger
 ^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * DataSet
 * Enabled
 * EventName
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
 * ProcessedItems
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Derived
 ^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * Einde
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * Ingang
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 DummyComplexType
 ^^^^^^^^^^^^^^^^
@@ -673,50 +673,50 @@ DummyComplexType
 DummyIBISEntityBaseObject
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 DummyValidatorClass
 ^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * EindeDatum
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IngangDatum
-* IsPersisted
-* IsTransient
-* IsValid
 * MandatoryField
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 EntityStub
 ^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 EpicDossier
 ^^^^^^^^^^^
@@ -750,8 +750,6 @@ EpicDossier
 * _42_30_Persoon_Aanhef
 * _42_31_Persoon_TitelsVoor
 * _42_32_Persoon_TitelsAchter
-* CreatedBy
-* CreatedDate
 * EMP_1101
 * EMP_1110
 * EMP_1111
@@ -775,34 +773,36 @@ EpicDossier
 * EMP_82031
 * EMP_82032
 * EMP_9205
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
 * IsValid
-* ModifiedBy
-* ModifiedDate
 * RandomNumberType
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 EventScript
 ^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * Event
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * ObjectId
 * Script
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Formatieplaats
 ^^^^^^^^^^^^^^
@@ -814,17 +814,17 @@ Formatieplaats
 * _03_40_Formatieplaats_DatumIngangGeldigheid
 * _03_41_Formatieplaats_DatumEindeGeldigheid
 * _03_50_Formatieplaats_IsEenManager
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Functie
 ^^^^^^^
@@ -858,56 +858,56 @@ Functie
 * _18_40_Functie_DatumIngangGeldigheid
 * _18_41_Functie_DatumEindeGeldigheid
 * _18_60_Functie_FunctieParent
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsInGebruik
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Functieroepnaam
 ^^^^^^^^^^^^^^^
 
 * Codefunctiegroep
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * IsVisible
-* ModifiedBy
-* ModifiedDate
 * Naamfunctiegroep
 * Roepnaam
-* ValidationErrors
 * VolgNummer
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 I18NResourceOverride
 ^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * Key
 * Locale
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
 * Value
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 IBISEntityBase`1
 ^^^^^^^^^^^^^^^^
@@ -927,21 +927,21 @@ IBISEntityBase`1
 IbisQueue
 ^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * CustomerId
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * QueueObject
 * QueueType
 * Status
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 IdentityDossier
 ^^^^^^^^^^^^^^^
@@ -1044,36 +1044,36 @@ IdentityDossier
 * _42_97_Persoon_Biometrienummer
 * _42_98_Persoon_ToestemmingOpnemenPasfotoInAdresgids
 * _42_99_Persoon_Status
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * RandomNumberType
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 IdmNumber
 ^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Nummer
 * NummerType
 * SamengesteldNummer
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 IDossier
 ^^^^^^^^
@@ -1272,28 +1272,28 @@ IDossier
 * _42_94_Persoon_GegevensInRijksgids
 * _42_95_Persoon_GegevensInStaatsalmanak
 * CleanDossierStatus
-* CreatedBy
-* CreatedDate
 * DienstverbandTypeHoofdGroep
 * DienstverbandTypeSubGroep
 * EndDate
 * HasPassportPhoto
 * HasPhoto
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsDirty
 * IsMaster
-* IsPersisted
-* IsTransient
 * IsValid
-* ModifiedBy
-* ModifiedDate
 * OrganisationNumber
 * OrganisationNumberDb
 * RandomNumberType
 * StartDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 IDossierFoto
 ^^^^^^^^^^^^
@@ -1301,76 +1301,76 @@ IDossierFoto
 * _42_54_Persoon_FotoUrl
 * _42_55_Persoon_Foto
 * _42_56_Persoon_PasFoto
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 IDossierRolInPDirekt
 ^^^^^^^^^^^^^^^^^^^^
 
 * _12_23_Contract_RolInPDirekt
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Land
 ^^^^
 
-* CreatedBy
-* CreatedDate
 * DrieLetterig
 * ExterneOmschrijving
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Naam
 * Nummer
 * TweeLetterig
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 LogEntry
 ^^^^^^^^
 
 * Application
-* CreatedBy
-* CreatedDate
 * Date
 * Exception
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * Level
 * Logger
 * LogType
 * Message
-* ModifiedBy
-* ModifiedDate
 * Thread
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Lokatiegegevens
 ^^^^^^^^^^^^^^^
@@ -1380,16 +1380,6 @@ Lokatiegegevens
 * BezoekAdresPlaats
 * BezoekAdresPostcode
 * BezoekAdresStraat
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Naam
 * PostAdresHuisNummer
 * PostAdresLand
@@ -1398,48 +1388,58 @@ Lokatiegegevens
 * PostAdresStraat
 * ShowDetailFields
 * SortOrder
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 MailTemplate
 ^^^^^^^^^^^^
 
 * Body
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsHtml
-* IsPersisted
-* IsTransient
-* IsValid
 * Locale
-* ModifiedBy
-* ModifiedDate
 * Name
 * ParentId
 * Subject
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Ministerie
 ^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * GebruiktPdirekt
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Naam
 * StandaardGeselecteerd
-* ValidationErrors
 * VolgNummer
 * Zichtbaar
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Notification
 ^^^^^^^^^^^^
@@ -1448,21 +1448,11 @@ Notification
 * BCC
 * Body
 * CC
-* CreatedBy
-* CreatedDate
 * Description
 * DossierIdentifier
 * From
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsHtml
-* IsPersisted
-* IsTransient
-* IsValid
 * MailTemplate
-* ModifiedBy
-* ModifiedDate
 * NotificationAttributes
 * ParsedBody
 * ParsedSubject
@@ -1470,89 +1460,99 @@ Notification
 * Retries
 * Status
 * Subject
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 NotificationAttachment
 ^^^^^^^^^^^^^^^^^^^^^^
 
 * ContentType
-* CreatedBy
-* CreatedDate
 * DataBase64
 * FileName
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * NotificationId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 NotificationAttribute
 ^^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * Key
-* ModifiedBy
-* ModifiedDate
 * NotificationId
-* ValidationErrors
 * Value
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 NotificationConfiguration
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * AttachDocumentScan
 * AttachPasFoto
-* CreatedBy
-* CreatedDate
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * LastRunTime
 * MailTemplate
-* ModifiedBy
-* ModifiedDate
 * Name
 * Recipients
 * SourceDossier
 * StatusFirstRun
-* ValidationErrors
 * WhereCondition
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 NotificationRecipient
 ^^^^^^^^^^^^^^^^^^^^^
 
 * Constant
-* CreatedBy
-* CreatedDate
 * CurrentEmployee
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * Manager
-* ModifiedBy
-* ModifiedDate
 * TreeManagerAttributeId
 * TreeManagerDelegatedAttributeId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Organisatie
 ^^^^^^^^^^^
@@ -1618,59 +1618,59 @@ Organisatie
 * _14_06_Kostenplaats_Deelbudgethouder
 * _14_20_Kostenplaats_KostenplaatsCode
 * _16_12_Dossier_ExterneIdentifier
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * NamePath
 * Path
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 PageDesign
 ^^^^^^^^^^
 
 * BrowserTitle
-* CreatedBy
-* CreatedDate
 * Css
-* HasValidationErrors
 * Html
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 PasswordModule
 ^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * Disabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * ModuleId
 * Settings
 * SupportedOperations
 * SystemName
 * UserMustChangePasswordAfterReset
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 PbsDossier
 ^^^^^^^^^^
@@ -1747,37 +1747,27 @@ PbsDossier
 * _42_27_Persoon_WidVoornamen
 * _42_35_RijkspasAanvragen
 * _42_56_Persoon_Pasfoto
-* CreatedBy
-* CreatedDate
 * EndDateChanged
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
 * IsValid
-* ModifiedBy
-* ModifiedDate
 * RandomNumberType
 * SendToCustomer
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Postcode
 ^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * EIGENAAR
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsGevonden
-* IsPersisted
-* IsTransient
-* IsValid
 * KAN_ID
-* ModifiedBy
-* ModifiedDate
 * PCD_CEBUCO_CODE
 * PCD_CODE_BREEKPUNT_TM
 * PCD_CODE_BREEKPUNT_V
@@ -1794,7 +1784,17 @@ Postcode
 * PCD_WOONPLAATS_WIJKCODE
 * PCD_WOONPLAATSNAAM_NEN
 * PCD_WOONPLAATSNAAM_PTT
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Product
 ^^^^^^^
@@ -1826,22 +1826,22 @@ Product
 * _21_99_Product_Statuscode
 * AccessForRoles
 * Acls
-* CreatedBy
-* CreatedDate
 * DefaultNumber
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsDeleted
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Organisations
 * ProductGroups
 * Suppliers
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductGroup
 ^^^^^^^^^^^^
@@ -1858,23 +1858,23 @@ ProductGroup
 * _22_71_Productgroep_AfhankelijkVanProductgroepId
 * _22_85_Productgroep_VerwijstNaar
 * AccessForRoles
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsDeleted
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Organisations
 * ProductGroupFilters
 * ProductGroupFunctions
 * Products
 * Suppliers
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductGroupFilter
 ^^^^^^^^^^^^^^^^^^
@@ -1887,54 +1887,54 @@ ProductGroupFilter
 * _36_41_ProductGroepFilter_DatumEindeGeldigheid
 * _36_79_ProductgroepFilter_FilterActie
 * _36_82_ProductgroepFilter_Opmerkingen
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsDeleted
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Organisations
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductGroupFilterOrganisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IncludeUnderlying
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * OrganisationId
 * ProductGroupFilterId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductGroupFilterType
 ^^^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Naam
 * TonenInAanvraagDossier
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductGroupFunction
 ^^^^^^^^^^^^^^^^^^^^
@@ -1943,38 +1943,38 @@ ProductGroupFunction
 * _33_40_ProductGroepFunctie_DatumIngangGeldigheid
 * _33_41_ProductGroepFunctie_DatumEindeGeldigheid
 * _33_79_ProductGroepFunctie_FilterActie
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsDeleted
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * ProductGroupId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductGroupOrganisation
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IncludeUnderlying
 * IsDeleted
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * OrganisationId
 * ProductGroupId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductGroupProduct
 ^^^^^^^^^^^^^^^^^^^
@@ -1986,76 +1986,76 @@ ProductGroupProduct
 * _24_41_ProductGroepProduct_EinddatumGeldigheid
 * _24_42_ProductgroepProduct_DatumBijgewerkt
 * _24_99_ProductGroepProduct_Statuscode
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsDeleted
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * ProductGroupId
 * ProductId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductGroupProductGroupFilter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * _36_79_ProductgroepFilter_FilterActie
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsDeleted
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * ProductGroupFilter
 * ProductGroupId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductGroupSupplier
 ^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsDeleted
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * ProductGroupId
 * SupplierId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductOrganisation
 ^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IncludeUnderlying
 * IsDeleted
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * OrganisationId
 * ProductId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductStatus
 ^^^^^^^^^^^^^
@@ -2066,20 +2066,20 @@ ProductStatus
 * AccessForRoles
 * AssetCreate
 * AssetRemove
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
 * IsRevoke
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
 * Number
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ProductSupplier
 ^^^^^^^^^^^^^^^
@@ -2103,145 +2103,145 @@ ProductSupplier
 * _25_72_ProductLeverancier_MailConsumerRetourwaardeRegEx
 * _25_81_ProductLeverancier_IntrekMethode
 * _25_85_ProductLeverancier_PrimaireLeverancier
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsDeleted
-* IsPersisted
-* IsTransient
 * IsValid
-* ModifiedBy
-* ModifiedDate
 * ProductId
 * SupplierId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Register
 ^^^^^^^^
 
 * Application
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * TargetType
 * UniqueValue
-* ValidationErrors
 * ValueType
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Remark
 ^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * ObjectId
 * RemarkText
 * SysIbisUserId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 RunProfileEntity
 ^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * Cron
 * Disabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * LastResult
-* ModifiedBy
-* ModifiedDate
 * Name
 * Results
 * Steps
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SmtpAlias
 ^^^^^^^^^
 
 * AliasDossierId
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
 * Value
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 StagingAreaEntity
 ^^^^^^^^^^^^^^^^^
 
 * ChangeType
 * Connector
-* CreatedBy
-* CreatedDate
 * ExclusionInformation
 * ExportChangeType
 * ExternalObjectId
-* HasValidationErrors
 * Hologram
-* IbisEntityConfig
 * IbisObjectId
 * IbisObjectType
-* ID
 * IsConnected
 * IsExcluded
-* IsPersisted
-* IsTransient
-* IsValid
 * LastExportError
-* ModifiedBy
-* ModifiedDate
 * PendingExport
 * PendingImport
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 StateChange
 ^^^^^^^^^^^
 
 * ChangeDate
-* CreatedBy
-* CreatedDate
 * Entity
-* HasValidationErrors
-* IbisEntityConfig
 * IbisUserId
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * NewState
 * ObjectID
 * ObjectType
 * OldState
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 StubIbisEntity
 ^^^^^^^^^^^^^^
@@ -2263,23 +2263,23 @@ Sturingsgegevens
 ^^^^^^^^^^^^^^^^
 
 * Categorie
-* CreatedBy
-* CreatedDate
 * DossierId
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * InvoerType
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * SysFacilityFieldID
-* ValidationErrors
 * VeldCode
 * Veldnaam
 * Waarde
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Supplier
 ^^^^^^^^
@@ -2302,36 +2302,36 @@ Supplier
 * _23_73_Leverancier_MailConsumerOpmerkingRegEx
 * _23_81_Leverancier_IntrekMethode
 * _23_90_Leverancier_StandaardVoorExtraProduct
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Organisations
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SupplierOrganisation
 ^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IncludeUnderlying
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * OrganisationId
 * SupplierId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SupplierStatus
 ^^^^^^^^^^^^^^
@@ -2341,43 +2341,43 @@ SupplierStatus
 * _52_30_LeverancierStatus_StatusNaam
 * _52_40_LeverancierStatus_ProductStatusId
 * _52_50_LeverancierStatus_ProductStatusRegEx
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysAccordion
 ^^^^^^^^^^^^
 
 * Acls
 * AuthorizationParent
-* CreatedBy
-* CreatedDate
 * DefaultValue
 * Enabled
 * FormType
-* HasValidationErrors
 * HelpText
-* IbisEntityConfig
-* ID
 * InitialOpened
-* IsPersisted
-* IsTransient
-* IsValid
 * Label
-* ModifiedBy
-* ModifiedDate
 * Name
 * SortOrder
 * TooltipText
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysButton
 ^^^^^^^^^
@@ -2385,23 +2385,23 @@ SysButton
 * Acls
 * AuthorizationParent
 * CausesValidation
-* CreatedBy
-* CreatedDate
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsLoadButton
-* IsPersisted
-* IsTransient
-* IsValid
 * Label
-* ModifiedBy
-* ModifiedDate
 * Name
 * ToolTip
 * UseSubmitBehavior
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysCategory
 ^^^^^^^^^^^
@@ -2409,22 +2409,22 @@ SysCategory
 * AccompanyingText
 * Acls
 * AuthorizationParent
-* CreatedBy
-* CreatedDate
 * Enabled
 * FormType
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * Label
-* ModifiedBy
-* ModifiedDate
 * Name
 * SortOrder
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysDossierStatus
 ^^^^^^^^^^^^^^^^
@@ -2437,24 +2437,14 @@ SysDossierStatus
 * AllowCustomProductsDelete
 * AllowProfileProductsDelete
 * AuthorizationParent
-* CreatedBy
-* CreatedDate
 * DependentStatus
 * Description
 * EnableCausesValidation
 * Enabled
 * FourEyesPrinciple
-* HasValidationErrors
 * HideFor
-* IbisEntityConfig
-* ID
 * IsApprovedStatus
-* IsPersisted
-* IsTransient
-* IsValid
 * MandatoryFieldsActive
-* ModifiedBy
-* ModifiedDate
 * Name
 * NotApproved
 * Number
@@ -2465,7 +2455,17 @@ SysDossierStatus
 * ShowFacilityData
 * ShowOrganizationTree
 * StatusType
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysFacilityCategory
 ^^^^^^^^^^^^^^^^^^^
@@ -2473,20 +2473,20 @@ SysFacilityCategory
 * Acls
 * AuthorizationParent
 * CategoryIndex
-* CreatedBy
-* CreatedDate
 * Description
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysFacilityField
 ^^^^^^^^^^^^^^^^
@@ -2495,8 +2495,6 @@ SysFacilityField
 * AuthorizationParent
 * CategorieId
 * ContainerCssClass
-* CreatedBy
-* CreatedDate
 * CtrlCssClass
 * DefaultValue
 * Enabled
@@ -2504,87 +2502,82 @@ SysFacilityField
 * FacilityFieldCode
 * FieldIndex
 * Format
-* HasValidationErrors
 * HelpText
-* IbisEntityConfig
-* ID
 * InputType
 * IsNewLine
 * IsParent
-* IsPersisted
-* IsTransient
-* IsValid
 * Label
 * ListItemCategoryId
 * Mandatory
 * MaxLength
-* ModifiedBy
-* ModifiedDate
 * Name
 * ParentId
 * ReadOnly
 * SortFacilityFieldCode
 * TooltipText
 * TypeControl
-* ValidationErrors
 * WrongFormatMessage
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysGeneral
 ^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * Description
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Parameter
-* ValidationErrors
 * Value
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysGridResultField
 ^^^^^^^^^^^^^^^^^^
 
 * Acls
 * AuthorizationParent
-* CreatedBy
-* CreatedDate
 * DefaultSort
 * Enabled
 * FieldName
 * GridResultType
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * Label
-* ModifiedBy
-* ModifiedDate
 * Name
 * Order
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysIbisUser
 ^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * Disabled
 * DomainName
 * Email
-* HasValidationErrors
-* IbisEntityConfig
 * IbisRoles
-* ID
-* IsPersisted
-* IsTransient
 * IsValid
 * Language
 * LastIdmNumber
@@ -2592,8 +2585,6 @@ SysIbisUser
 * LastIpAddress
 * LastLogin
 * LastRoles
-* ModifiedBy
-* ModifiedDate
 * ProductSupplierDefaultBestelmethodeId
 * SecretQuestions
 * Settings
@@ -2601,29 +2592,38 @@ SysIbisUser
 * TakeOverProductSupplierDataToSupplier
 * UseOrganizationSelector
 * Username
-* ValidationErrors
 * ValidityEndDate
 * ValidityStartDate
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysIbisUserAllowedOrganisation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * ForProductManagement
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * OrganisationId
 * OrganisationNumber
 * Path
 * SysIbisUserId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysInputField
 ^^^^^^^^^^^^^
@@ -2631,8 +2631,6 @@ SysInputField
 * Acls
 * AuthorizationParent
 * ContainerCssClass
-* CreatedBy
-* CreatedDate
 * CtrlCssClass
 * DefaultValue
 * EnableBulkProcessing
@@ -2640,110 +2638,102 @@ SysInputField
 * EventScripts
 * Format
 * FormType
-* HasValidationErrors
 * HelpText
-* IbisEntityConfig
 * IbisParent
-* ID
 * InputMask
 * InputType
 * IsNewLine
-* IsPersisted
-* IsTransient
-* IsValid
 * Label
 * ListItemCategoryId
 * Mandatory
 * MandatoryDependentOfDossierStatus
 * MaxLength
-* ModifiedBy
-* ModifiedDate
 * Name
 * SortOrder
 * TooltipText
-* ValidationErrors
 * Validator
 * ValidatorErrorMessage
 * WrongFormatMessage
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysLicense
 ^^^^^^^^^^
 
 * ClassName
-* CreatedBy
-* CreatedDate
 * Disabled
 * DllName
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * License
-* ModifiedBy
-* ModifiedDate
 * Module
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysListItem
 ^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * ItemEnabled
 * ItemExterneOmschrijving
 * ItemIndex
 * ItemSelected
 * ItemText
 * ItemValue
-* ModifiedBy
-* ModifiedDate
 * SysListItemCategoryId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysListItemCategory
 ^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * ListItems
-* ModifiedBy
-* ModifiedDate
 * Name
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysMenuItem
 ^^^^^^^^^^^
 
 * Acls
 * AuthorizationParent
-* CreatedBy
-* CreatedDate
 * Description
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
 * IsSelfService
-* IsTransient
-* IsValid
 * Label
-* ModifiedBy
-* ModifiedDate
 * Name
 * Page
 * Parent
@@ -2751,30 +2741,40 @@ SysMenuItem
 * ShortDescription
 * ShowWorkingStockNumber
 * SortOrder
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysPage
 ^^^^^^^
 
 * Acls
 * AuthorizationParent
-* CreatedBy
-* CreatedDate
 * Embed
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
 * NavigateUrl
 * OpenInNewWindow
 * SystemPage
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysRole
 ^^^^^^^
@@ -2783,31 +2783,31 @@ SysRole
 * ApiAccess
 * AutorisationAttributes
 * BusinessRole
-* CreatedBy
-* CreatedDate
 * Description
 * Disabled
 * DisableRoleSelection
 * DoNotAllowInRoleSelection
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsAdmin
 * IsManager
-* IsPersisted
 * IsSelfService
-* IsTransient
 * IsValid
-* ModifiedBy
-* ModifiedDate
 * NestedRoles
 * OnlyShowAllowedDossiers
 * RoleName
 * SysRoleDossierStatusses
 * SystemRole
-* ValidationErrors
 * ValidityEndDate
 * ValidityStartDate
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysRoleAutorisationAttribute
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -2817,73 +2817,73 @@ SysRoleAutorisationAttribute
 * AttributeType
 * AttributeTypeId
 * AttributeValue
-* CreatedBy
-* CreatedDate
 * Description
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
 * IsValid
-* ModifiedBy
-* ModifiedDate
 * Type
-* ValidationErrors
 * ValidityEndDate
 * ValidityStartDate
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysRoleAutorisationAttributeType
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * Description
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Number
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysRoleDossierStatus
 ^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IsFilterStatus
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * SysDossierStatusId
 * SysRoleId
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysSearchControl
 ^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
 * Path
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 SysSearchField
 ^^^^^^^^^^^^^^
@@ -2891,21 +2891,11 @@ SysSearchField
 * Acls
 * AdvancedField
 * AuthorizationParent
-* CreatedBy
-* CreatedDate
 * DefaultValue
 * Enabled
 * FieldName
 * FormType
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * Label
-* ModifiedBy
-* ModifiedDate
 * Name
 * SearchControl
 * SearchOperator
@@ -2913,98 +2903,108 @@ SysSearchField
 * SearchProperty2
 * Sequence
 * TooltipText
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Task
 ^^^^
 
-* CreatedBy
-* CreatedDate
 * Cron
 * Exception
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * LastRunTime
 * LastSuccessRuntime
-* ModifiedBy
-* ModifiedDate
 * Name
 * Parameters
 * ResultReport
 * TaskSpecification
 * TaskSpecificationType
 * TaskType
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 TaskContext
 ^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * Disabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
 * Tasks
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 TaskParameter
 ^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
 * TextBoxMode
-* ValidationErrors
 * Value
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 TestEntity
 ^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 TestObject
 ^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 TestObjectIdmNumber
 ^^^^^^^^^^^^^^^^^^^
@@ -3017,17 +3017,17 @@ TestObjectIdmNumber
 * _42_11_Persoon_Geslachtsnaam
 * _42_15_Persoon_Voornamen
 * _42_25_Persoon_Voorletters1
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 TgDossier
 ^^^^^^^^^
@@ -3107,59 +3107,59 @@ TgDossier
 * _42_70_Persoon_Specialisme
 * _42_87_Persoon_GegevensTonenInAdresgids
 * _42_90_Persoon_FotoTonenInAdresgids
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * RandomNumberType
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Transition
 ^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * DestinationActivity
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Order
 * SourceActivity
 * SourceActivityOutcome
-* ValidationErrors
 * Workflow
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 TypeDienstverbandHoofdgroep
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * DefaultSelected
 * Description
 * GroupId
 * GroupType
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * ShowSubGroup
-* ValidationErrors
 * Visible
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 TypeDienstverbandSubgroep
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -3171,63 +3171,63 @@ TypeDienstverbandSubgroep
 * _31_74_MWSG_Minimale_Contractduur_Bron
 * _31_75_MWSG_Maximale_Contractduur_Bron
 * CardRequest
-* CreatedBy
-* CreatedDate
 * CreateDirectoryAccount
 * DefaultSelected
 * Description
 * GroupId
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * MasterGroupId
-* ModifiedBy
-* ModifiedDate
 * ShowCardRequest
 * ShowContractTab
 * ShowCreateDirectoryAccount
 * ShowFunctieGebouwRijk
 * ShowRolInPdirekt
-* ValidationErrors
 * Visible
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 ValidatorObjectStub
 ^^^^^^^^^^^^^^^^^^^
 
-* CreatedBy
-* CreatedDate
 * EndDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * StartDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 WaitingActivity
 ^^^^^^^^^^^^^^^
 
 * Activity
 * ContentId
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
 * Workflow
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 WidDossier
 ^^^^^^^^^^
@@ -3281,59 +3281,59 @@ WidDossier
 * _42_01_IdmNummer
 * _42_27_Persoon_WidVoornamen
 * _42_56_Persoon_PasfotoRijkspas
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * RandomNumberType
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 WithdrawRelation
 ^^^^^^^^^^^^^^^^
 
 * ApplicationDossierId
 * ApplicationDossierProductId
-* CreatedBy
-* CreatedDate
-* HasValidationErrors
-* IbisEntityConfig
-* ID
 * IDossierId
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
-* ValidationErrors
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 Workflow
 ^^^^^^^^
 
 * Activities
-* CreatedBy
-* CreatedDate
 * Description
 * DiagramModel
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Name
 * Order
 * Transitions
-* ValidationErrors
 * WaitingActivities
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 WorkflowActionButton
 ^^^^^^^^^^^^^^^^^^^^
@@ -3343,27 +3343,27 @@ WorkflowActionButton
 * AuthorizationParent
 * AutoReload
 * BackgroundColor
-* CreatedBy
-* CreatedDate
 * Description
 * Enabled
-* HasValidationErrors
-* IbisEntityConfig
 * Icon
 * IconColor
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
 * Label
-* ModifiedBy
-* ModifiedDate
 * Name
 * ObjectType
 * TextColor
 * TypeFilter
-* ValidationErrors
 * Workflow
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 WorkflowActivityHistory
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -3373,23 +3373,12 @@ WorkflowActivityHistory
 * ActivityName
 * AddedToWaitingQueue
 * CanExecuteOutcome
-* CreatedBy
-* CreatedDate
 * End
 * Exception
 * ExecuteOutcome
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * SourceActivityId
 * SourceOutcome
 * Start
-* ValidationErrors
 * WorkflowArgumentsEndValue
 * WorkflowArgumentsStartValue
 * WorkflowContentEndValue
@@ -3397,6 +3386,17 @@ WorkflowActivityHistory
 * WorkflowContentType
 * WorkflowHistoryId
 * WorkflowId
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
 WorkflowHistory
 ^^^^^^^^^^^^^^^
@@ -3407,19 +3407,19 @@ WorkflowHistory
 * ContentEndValue
 * ContentStartValue
 * ContentType
-* CreatedBy
-* CreatedDate
 * End
 * EntityId
-* HasValidationErrors
-* IbisEntityConfig
-* ID
-* IsPersisted
-* IsTransient
-* IsValid
-* ModifiedBy
-* ModifiedDate
 * Start
-* ValidationErrors
 * WorkflowId
+* *CreatedBy*
+* *CreatedDate*
+* *HasValidationErrors*
+* *IbisEntityConfig*
+* *ID*
+* *IsPersisted*
+* *IsTransient*
+* *IsValid*
+* *ModifiedBy*
+* *ModifiedDate*
+* *ValidationErrors*
 
