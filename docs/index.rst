@@ -1,7 +1,10 @@
 Welcome to IBIS
 ===============
 
-IBIS is
+Installation
+^^^^^^^^^^^^
+
+IBIS installation guidelines
 
 .. toctree::
    :maxdepth: 3
