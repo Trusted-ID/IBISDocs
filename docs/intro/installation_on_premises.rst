@@ -35,7 +35,7 @@ IIS Manager
     b.	Identity				: [service account]
     c.	Idle timeout (minutes)		: 0
     d.	Maximum worker processes		: 1
-    e.	Recycling  Regular time interval	: 0
+    e.	Recycling -> Regular time interval	: 0
 
 3.	Back in the main screen, right click on the hosting website, and choose Add application
 4.	Specify an alias. This is the URL part after the hostname (https://www.server.com/alias)

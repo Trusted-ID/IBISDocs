@@ -37,5 +37,5 @@ Mode          Required  Defines the way to handle property changes:
 
                             - AND : All specified properties must be changed
                             - OR  : Any of the specified properties must be changed
-property      Optional  Defines the properties to filter on in combination with the Mode setting. If specified, the workflow will only be executed when on or more of these properties have changed
+Property      Optional  Defines the properties to filter on in combination with the Mode setting. If specified, the workflow will only be executed when on or more of these properties have changed
 ============= ======== ====================
