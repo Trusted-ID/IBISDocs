@@ -12,6 +12,15 @@ Welcome to IBIS
 .. toctree::
     :maxdepth: 3
     :hidden:
+    :caption: Workflow
+
+    workflow/events/content_created
+    workflow/events/content_updated
+    workflow/activities/add_products_by_product_group
+
+.. toctree::
+    :maxdepth: 3
+    :hidden:
     :caption: Technical
 
     technical/dictionary
