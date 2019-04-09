@@ -10,7 +10,7 @@ Welcome to IBIS
     intro/installation_azure
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
     :hidden:
     :caption: Workflow
 
