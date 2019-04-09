@@ -10,13 +10,12 @@ Welcome to IBIS
     intro/installation_azure
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 3
     :hidden:
     :caption: Workflow
 
-    workflow/events/content_created
-    workflow/events/content_updated
-    workflow/activities/add_products_by_product_group
+    workflow/events
+    workflow/activities
 
 .. toctree::
     :maxdepth: 3
