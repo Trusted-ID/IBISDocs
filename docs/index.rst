@@ -17,10 +17,3 @@ Welcome to IBIS
     workflow/introduction
     workflow/events
     workflow/activities
-
-.. toctree::
-    :maxdepth: 3
-    :hidden:
-    :caption: Technical
-
-    technical/dictionary
